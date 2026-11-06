@@ -10,19 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
+<body class="theme-ou">
 
-<header class="top">
+<header class="brandbar">
   <div class="wrap">
-    <a class="wordmark" href="./">OU CARE AI <span>/ Oakland University</span></a>
-    <nav class="nav">
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#computing">Research computing</a>
-      <a href="#people">People</a>
-    </nav>
+    <a class="wordmark" href="./">OU CARE AI</a>
+    <span class="schools"><b>Oakland University</b></span>
   </div>
+  <div class="schoolrule"></div>
 </header>
+<nav class="tabs" aria-label="Sections">
+  <div class="wrap">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#computing">Research computing</a>
+    <a href="#people">People</a>
+  </div>
+  <div class="progress"></div>
+</nav>
 
 <div class="masthead">
   <div class="wrap">
@@ -68,7 +73,7 @@
       <li>
         <div class="tag">In development</div>
         <h3>Self-service research VMs</h3>
-        <p>A request-and-approval process for Oakland University research groups to get Jetstream2 instances, with automatic idle shutdown, so nobody needs administrator access to the shared cloud project.</p>
+        <p>A request-and-approval process for OU and WPI research groups working with the project to get Jetstream2 instances, with automatic idle shutdown, so nobody needs administrator access to the shared cloud project. By invitation; reach out to ask.</p>
       </li>
       <li>
         <div class="tag">Placeholder</div>
@@ -82,12 +87,12 @@
   <div class="wrap cols">
     <div>
       <h2>Research computing</h2>
-      <p>We run a JupyterHub on Jetstream2 for our workshops, and the same allocation supports a small number of Oakland University research groups, including REU students, working with the project.</p>
-      <p>Access is by invitation. If your group would benefit, contact us. We'll explain how the shared allocation works and what we can support.</p>
+      <p>We run a JupyterHub on Jetstream2 for our workshops, and the same allocation supports a small number of Oakland University and WPI research groups, including REU students, working with the project.</p>
+      <p>Access is by invitation. If your group would benefit, reach out. We'll explain how the shared allocation works and what we can support.</p>
     </div>
     <aside>
       <dl class="facts">
-        <dt>Who it's for</dt><dd>Oakland University groups working with the project</dd>
+        <dt>Who it's for</dt><dd>OU and WPI groups working with the project</dd>
         <dt>Access</dt><dd>By invitation</dd>
         <dt>Contact</dt><dd><span class="ph">Placeholder: contact email</span></dd>
       </dl>
@@ -113,5 +118,6 @@
     <p>OU CARE AI · Oakland University · <a href="https://github.com/OU-CARE-AI">GitHub</a></p>
   </div>
 </footer>
+<script src="assets/tabs.js"></script>
 </body>
 </html>
