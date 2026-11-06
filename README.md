@@ -1,6 +1,10 @@
-# OU-CARE-AI.github.io
+# OU CARE AI
 
-The OU CARE AI organization website: **https://ou-care-ai.github.io/**
+AI research, hands-on workshops, and research computing at Oakland University.
 
-Static HTML in the same house style as the [NAIRR program site](https://github.com/OU-CARE-AI/nairr-eager).
-Images named `ph-*.svg` are placeholders.
+**Website: https://ou-care-ai.github.io/**
+
+Current project: [Advancing AI Research with NAIRR](https://ou-care-ai.github.io/nairr-eager/), a workshop series on
+cybersecurity, edge AI, and autonomous driving with Worcester Polytechnic Institute (NSF awards #2528533 and #2528534).
+
+<sub>This repository holds the website source.</sub>

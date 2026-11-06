@@ -3,121 +3,114 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>OU CARE AI</title>
-<meta name="description" content="OU CARE AI: AI research, training and research computing at Oakland University.">
+<title>OU CARE AI · Oakland University</title>
+<meta name="description" content="OU CARE AI at Oakland University: AI research, workshops, and research computing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="./"><img src="assets/img/motif.png" alt=""> OU CARE AI</a>
+    <a class="wordmark" href="./">OU CARE AI <span>/ Oakland University</span></a>
     <nav class="nav">
-      <a href="#what">What we do</a>
+      <a href="#about">About</a>
       <a href="#projects">Projects</a>
-      <a href="#compute">Research computing</a>
+      <a href="#computing">Research computing</a>
       <a href="#people">People</a>
-      <a href="https://github.com/OU-CARE-AI">GitHub</a>
     </nav>
   </div>
 </header>
 
-<main>
-<section class="hero">
+<div class="masthead">
   <div class="wrap">
-    <div class="tick"></div>
-    <div class="kicker">Oakland University</div>
+    <p class="eyebrow">Oakland University</p>
     <h1>OU CARE AI</h1>
-    <p class="lede">AI research, hands-on training, and shared research computing at Oakland University, built with our partners and open for others to reuse.</p>
-    <p class="muted small"><span class="ph-note">Placeholder: official mission statement and what "CARE" stands for</span></p>
-    <div class="btns" style="margin-top:18px">
-      <a class="btn primary" href="nairr-eager/">NAIRR workshop series</a>
-      <a class="btn" href="#compute">Use our compute</a>
-    </div>
-    <div class="hero-img"><img src="assets/img/ph-hero-org.svg" alt="Placeholder for OU CARE AI hero image"></div>
+    <p class="dek">AI research, hands-on workshops, and shared research computing at Oakland University.</p>
+    <p class="byline"><span class="ph">Placeholder: what "CARE" stands for, and the home department or center</span></p>
   </div>
-</section>
+</div>
 
-<section id="what" class="alt">
-  <div class="wrap">
-    <h2>What we do</h2>
-    <p class="sub">Three things, each feeding the others</p>
-    <div class="grid g3">
-      <div class="card ws"><div class="thumb"><img src="assets/img/ph-pillar-research.svg" alt="Placeholder for research image"></div>
-        <div class="body"><h3>Research</h3><p class="small">AI for cybersecurity, efficient edge AI, and autonomous systems: sensing, fusion, planning and control.</p></div></div>
-      <div class="card ws"><div class="thumb"><img src="assets/img/ph-pillar-training.svg" alt="Placeholder for workshop image"></div>
-        <div class="body"><h3>Training</h3><p class="small">Open, hands-on workshops that run in a browser on national research infrastructure, so no local GPU is needed.</p></div></div>
-      <div class="card ws"><div class="thumb"><img src="assets/img/ph-pillar-infra.svg" alt="Placeholder for infrastructure image"></div>
-        <div class="body"><h3>Research computing</h3><p class="small">A shared JupyterHub and cloud VMs on Jetstream2 for workshops, REU students and partner labs.</p></div></div>
+<main>
+<section id="about">
+  <div class="wrap cols">
+    <div>
+      <h2>About</h2>
+      <p><span class="ph">Placeholder: a short mission statement.</span></p>
+      <p>Our work centers on three areas: AI for cybersecurity and trustworthy AI, efficient AI at the edge, and AI for autonomous systems. Much of it runs on national research infrastructure through the NAIRR Pilot, which also lets us offer training that needs nothing more than a browser.</p>
+      <figure>
+        <img src="assets/img/ph-hero-org.svg" alt="Placeholder for a lab or group photo">
+        <figcaption>Placeholder: a lab or group photo.</figcaption>
+      </figure>
     </div>
+    <aside>
+      <dl class="facts">
+        <dt>Institution</dt><dd>Oakland University, Rochester, Michigan</dd>
+        <dt>Partners</dt><dd>Worcester Polytechnic Institute</dd>
+        <dt>Infrastructure</dt><dd>Jetstream2, through the NAIRR Pilot</dd>
+        <dt>Contact</dt><dd><span class="ph">Placeholder: contact email</span></dd>
+      </dl>
+    </aside>
   </div>
 </section>
 
 <section id="projects">
   <div class="wrap">
     <h2>Projects</h2>
-    <p class="sub">What we're working on</p>
-    <div class="grid g2">
-      <a class="card t-blue" href="nairr-eager/">
-        <div class="kicker" style="margin-bottom:10px">Featured · NAIRR EAGER</div>
-        <h3>NAIRR Workshop Series: Cybersecurity, Edge AI &amp; Autonomous Systems</h3>
-        <p class="small">With Worcester Polytechnic Institute: 13 sessions across three tracks and four case studies, all runnable on the NAIRR Pilot through Jetstream2.</p>
-        <p class="small" style="margin-top:12px;font-weight:600">Visit the program site →</p>
-      </a>
-      <div class="card">
-        <div class="kicker" style="margin-bottom:10px;color:var(--muted)">Coming soon</div>
+    <ul class="projects">
+      <li>
+        <div class="tag">NSF NAIRR Pilot Expansion · with WPI</div>
+        <h3><a href="nairr-eager/">Advancing AI Research with NAIRR: Workshop Series on Cybersecurity, Edge AI, and Autonomous Driving</a></h3>
+        <p>Two annual workshop series, twelve workshops over two years, that give researchers and students hands-on training on NAIRR resources. NSF awards #2528533 and #2528534.</p>
+      </li>
+      <li>
+        <div class="tag">In development</div>
         <h3>Self-service research VMs</h3>
-        <p class="small">Request a Jetstream2 instance by opening a GitHub issue, with automatic idle shutdown and no cloud admin access needed.</p>
-        <p class="small" style="margin-top:12px"><a href="https://github.com/OU-CARE-AI/vm-requests">Preview the request form →</a></p>
-      </div>
-      <div class="card">
-        <div class="kicker" style="margin-bottom:10px;color:var(--muted)">Placeholder</div>
-        <h3><span class="ph-note">Placeholder for another project</span></h3>
-        <p class="small muted">Room for future grants, REU programs, or lab projects.</p>
-      </div>
-    </div>
+        <p>A request-and-approval process for Oakland University research groups to get Jetstream2 instances, with automatic idle shutdown, so nobody needs administrator access to the shared cloud project.</p>
+      </li>
+      <li>
+        <div class="tag">Placeholder</div>
+        <h3><span class="ph">Placeholder: another project, grant, or REU program</span></h3>
+      </li>
+    </ul>
   </div>
 </section>
 
-<section id="compute" class="alt">
-  <div class="wrap">
-    <h2>Research computing</h2>
-    <p class="sub">Shared infrastructure for workshops and partner research groups</p>
-    <div class="grid g3">
-      <div class="card"><span class="badge">1</span><h3>Workshop JupyterHub</h3><p class="small">Browser-based notebooks with prepared CPU and GPU environments per workshop.</p></div>
-      <div class="card"><span class="badge">2</span><h3>Research VMs</h3><p class="small">Partner groups run their own instances on our Jetstream2 allocation. Read the <a href="https://github.com/OU-CARE-AI/researcher-guide">researcher guide</a> first.</p></div>
-      <div class="card"><span class="badge">3</span><h3>Getting access</h3><p class="small"><span class="ph-note">Placeholder: who to contact and eligibility</span></p></div>
+<section id="computing">
+  <div class="wrap cols">
+    <div>
+      <h2>Research computing</h2>
+      <p>We run a JupyterHub on Jetstream2 for our workshops, and the same allocation supports a small number of Oakland University research groups, including REU students, working with the project.</p>
+      <p>Access is by invitation. If your group would benefit, contact us. We'll explain how the shared allocation works and what we can support.</p>
     </div>
+    <aside>
+      <dl class="facts">
+        <dt>Who it's for</dt><dd>Oakland University groups working with the project</dd>
+        <dt>Access</dt><dd>By invitation</dd>
+        <dt>Contact</dt><dd><span class="ph">Placeholder: contact email</span></dd>
+      </dl>
+    </aside>
   </div>
 </section>
 
 <section id="people">
   <div class="wrap">
     <h2>People</h2>
-    <p class="sub">Faculty, students and partners</p>
-    <img src="assets/img/ph-people-grid.svg" alt="Placeholder for people and lab members" style="border-radius:12px;border:1px solid var(--line)">
-  </div>
-</section>
-
-<section class="alt">
-  <div class="wrap">
-    <h2>On GitHub</h2>
-    <p class="sub">Everything lives in the OU-CARE-AI organization</p>
-    <div class="grid g3">
-      <a class="card" href="https://github.com/OU-CARE-AI/nairr-eager"><h3>nairr-eager</h3><p class="muted small">NAIRR program site and workshop index</p></a>
-      <a class="card" href="https://github.com/OU-CARE-AI/researcher-guide"><h3>researcher-guide</h3><p class="muted small">How to use the shared allocation responsibly</p></a>
-      <a class="card" href="https://github.com/OU-CARE-AI/vm-requests"><h3>vm-requests</h3><p class="muted small">Preview of request-based VM access</p></a>
-      <a class="card" href="https://github.com/OU-CARE-AI/deck-template"><h3>deck-template</h3><p class="muted small">Our slide template and build scripts</p></a>
-    </div>
+    <p><span class="ph">Placeholder: faculty, students, and staff, with roles.</span> The NAIRR project team is listed on the <a href="nairr-eager/#team">workshop series site</a>.</p>
+    <figure>
+      <img src="assets/img/ph-people-grid.svg" alt="Placeholder for people photos">
+      <figcaption>Placeholder: people photos, with consent.</figcaption>
+    </figure>
   </div>
 </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <img src="assets/img/ph-logo-partners.svg" alt="Placeholder for partner logos" style="max-width:700px">
-    <div><span class="ph-note">Placeholder: contact address</span></div>
-    <div>© OU CARE AI · <a href="https://github.com/OU-CARE-AI">github.com/OU-CARE-AI</a></div>
+    <img src="assets/img/ph-logo-partners.svg" alt="Placeholder for partner logos">
+    <p>OU CARE AI · Oakland University · <a href="https://github.com/OU-CARE-AI">GitHub</a></p>
   </div>
 </footer>
 </body>
